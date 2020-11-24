@@ -5,6 +5,7 @@ package-lock.json
 # Settings
 .eslintrc.json
 .prettierrc.json
+.env
 
 # Others
 assets
