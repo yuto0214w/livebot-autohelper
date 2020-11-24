@@ -1,7 +1,6 @@
 # Dependency
 node_modules
 package-lock.json
-.env
 
 # Settings
 .eslintrc.json
