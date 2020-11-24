@@ -1,0 +1,10 @@
+# Dependency
+node_modules
+package-lock.json
+
+# Settings
+.eslintrc.json
+.prettierrc.json
+
+# Others
+assets

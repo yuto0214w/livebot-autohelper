@@ -1,0 +1,41 @@
+{
+  "welcome_message": {
+    "author": {
+      "name": "Livebot AutoHelper",
+      "url": "https://github.com/SebOuellette/LiveBot"
+    },
+    "description": "Hello! I'm a bot that will try to help you with the installation process.\nPlease tell me, what is the issue.\nRespond with a single number, etc. 3",
+    "color": "#ff0000",
+    "fields": [
+      {
+        "name": "1",
+        "value": "How to download and install Livebot?"
+      },
+      {
+        "name": "2",
+        "value": "I need more help with downloading and installing Livebot."
+      },
+      {
+        "name": "3",
+        "value": "Where can I find my bot token?"
+      },
+      {
+        "name": "4",
+        "value": "I can't log into my bot."
+      },
+      {
+        "name": "5",
+        "value": "My problem isn't listed here."
+      }
+    ],
+    "thumbnail": {
+      "url": "https://cdn.discordapp.com/attachments/727561147204501686/780664273248583700/logo.png"
+    }
+  },
+  "how_to_allow_dm_from_bot": {
+    "color": "#ff0000",
+    "image": {
+      "url": "https://cdn.discordapp.com/attachments/727561147204501686/780676541192732682/image0.png"
+    }
+  }
+}
