@@ -37,5 +37,124 @@
     "image": {
       "url": "https://cdn.discordapp.com/attachments/727561147204501686/780676541192732682/image0.png"
     }
+  },
+  "1": {
+    "author": {
+      "name": "Which platform are you using?"
+    },
+    "color": "#ff0000",
+    "fields": [
+      {
+        "name": "Windows",
+        "value": "Type `windows`"
+      },
+      {
+        "name": "Mac",
+        "value": "Type `mac`"
+      },
+      {
+        "name": "Linux",
+        "value": "Type `linux`"
+      }
+    ]
+  },
+  "windows": {
+    "author": {
+      "name": "Windows"
+    },
+    "color": "#ff0000",
+    "fields": [
+      {
+        "name": "1. Download Node.js from https://nodejs.org/en.",
+        "value": "Please download the latest version."
+      },
+      {
+        "name": "2. Install the Node.js.",
+        "value": "Open the downloaded installer and follow the instructions to install."
+      },
+      {
+        "name": "3. Download LiveBot from our GitHub page and extract it.",
+        "value": "Click the `Code` on [this website](https://github.com/SebOuellette/LiveBot) then click `Download ZIP`."
+      },
+      {
+        "name": "4. Click the path bar(!) in the file explorer and type in cmd, and then press enter.",
+        "value": "Don't know where the path bar is? Check the under embed."
+      },
+      {
+        "name": "L. Now, type in `npm install`, then, when it finishes, type in `npm test`.",
+        "value": "That will launch the LiveBot app!"
+      }
+    ]
+  },
+  "windows-2": {
+    "color": "#ff0000",
+    "image": {
+      "url": "https://i.imgur.com/RUClhI5.png"
+    }
+  },
+  "mac-text": "https://cdn.discordapp.com/attachments/727561147204501686/780789071106539560/AGDRec_20201124_223349.mp4",
+  "mac": {
+    "author": {
+      "name": "Mac"
+    },
+    "color": "#ff0000",
+    "fields": [
+      {
+        "name": "1. (If you didn't install Node.js) Open your terminal and run these commands...",
+        "value": "```bash\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)\"\nbrew install nodebrew\nnodebrew install-binary latest\nexit\n```"
+      },
+      {
+        "name": "2. Download LiveBot from our GitHub page and extract it.",
+        "value": "Click the `Code` on [this website](https://github.com/SebOuellette/LiveBot) then click `Download ZIP`."
+      },
+      {
+        "name": "3. cd to the directory or write `cd ` and drag and drop the folder into the terminal",
+        "value": "If you don't know how-to, see the under video.\n(I don't have a Mac, but I used the software and tried to do it as if I were using a Mac.)"
+      },
+      {
+        "name": "L. Now, type in `npm install`, then, when it finishes, type in `npm test`.",
+        "value": "That will launch the LiveBot app!"
+      }
+    ]
+  },
+  "linux": {
+    "author": {
+      "name": "Linux"
+    },
+    "color": "#ff0000",
+    "fields": [
+      {
+        "name": "1. Install node.js if you don't have it.",
+        "value": "You can use nvm nodebrew too, but I prefer to use n\n```bash\ncurl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n\nbash n lts\n```"
+      },
+      {
+        "name": "2. Download LiveBot from our GitHub page and extract it.",
+        "value": "Click the `Code` on [this website](https://github.com/SebOuellette/LiveBot) then click `Download ZIP`."
+      },
+      {
+        "name": "3. Right click and press on `Open in Terminal` or some variation of it.",
+        "value": "If you don't have that then cd to the path that contains the files."
+      },
+      {
+        "name": "L. Now, type in `npm install`, then, when it finishes, type in `npm test`.",
+        "value": "That will launch the LiveBot app!"
+      }
+    ]
+  },
+  "2": {
+    "description": "For more help related to LiveBot installation please ask [here](https://discord.com/channels/770232718339604522/777904830541856778/777904896715259924)",
+    "color": "#ff0000"
+  },
+  "3": {
+    "description": "You can find your bot's token [here](https://discord.com/developers/applications)\nSelect your bot, and copy the token which is under the 'Bot' section.",
+    "color": "#ff0000"
+  },
+  "4": {
+    "description": "For help related to logging into LiveBot, please ask [here](https://discord.com/channels/770232718339604522/777905748188987442/777905831193870396)",
+    "color": "#ff0000"
+  },
+  "5": {
+    "description": "Please ask for help that isn't listed [here](https://discord.com/channels/770232718339604522/777899716914577438/777899903430164561)",
+    "color": "#ff0000"
   }
 }

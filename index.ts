@@ -83,8 +83,14 @@ client.on('message', async (msg) => {
     }
 
   if (msg.channel.type === 'dm') {
-    if (!embeds[msg.content]) return
-    msg.channel.send({ embed: embeds[msg.content] })
+    msg.content = msg.content.toLowerCase().replaceAll(' ', '_')
+    if (embeds[msg.content] && !msg.content.includes('-')) {
+      await msg.channel.send({ embed: embeds[msg.content] })
+      if (embeds[`${msg.content}-2`])
+        await msg.channel.send({ embed: embeds[`${msg.content}-2`] })
+      if (embeds[`${msg.content}-text`])
+        msg.channel.send(embeds[`${msg.content}-text`])
+    }
   }
 })
 
